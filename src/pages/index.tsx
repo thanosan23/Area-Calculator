@@ -19,7 +19,7 @@ export default function Home() {
             <main className="bg-zinc-900 min-h-screen p-10 text-white">
                 <div className="flex flex-col gap-3 justify-center">
                     <h1 className="font-bold text-5xl py-2">Area Calculator</h1>
-                    <p className="py-3">Enter the verticies of the polygon, and it will calculate the area. When entering the verticies, make sure you enter the verticies in either clockwise or counter-clockwise order! Enter the verticies in (x, y) format, with first column being x value and second column being y value.</p>
+                    <p className="py-3">Enter the vertices of the polygon, and it will calculate the area. When entering the vertices, make sure you enter the vertices in either clockwise or counter-clockwise order! Enter the vertices in (x, y) format, with first column being x value and second column being y value.</p>
                     <div className="flex flex-col gap-3">
                         <div className="flex flex-col gap-2 w-1/8">
                             {points.map((point, idx) => (
