@@ -46,7 +46,7 @@ export default function Home() {
                                 const vertices = points.concat(points[0]!);
                                 let left = 0;
                                 let right = 0;
-                                for(let i = 0; i < points.length - 1; i++) {
+                                for(let i = 0; i < points.length; i++) {
                                     left += vertices[i]!.x * vertices[i+1]!.y;
                                     right += vertices[i]!.y * vertices[i+1]!.x;
                                 }
